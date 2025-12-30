@@ -1,11 +1,11 @@
 "use client"
 
 import { useState } from "react"
-import { DashboardNav } from "@/components/dashboard/DashboardNav"
-import { OverviewSection } from "@/components/dashboard/OverviewSection"
-import { AttendanceSection } from "@/components/dashboard/AttendanceSection"
-import { TasksSection } from "@/components/dashboard/TasksSection"
-import { EditorSheetManager } from "@/components/editor/EditorSheetManager"
+import { DashboardNav } from "@/src/components/dashboard/DashboardNav"
+import { OverviewSection } from "@/src/components/dashboard/OverviewSection"
+import { AttendanceSection } from "@/src/components/dashboard/AttendanceSection"
+import { TasksSection } from "@/src/components/dashboard/TasksSection"
+import { EditorSheetManager } from "@/src/components/editor/EditorSheetManager"
 import { useAuth } from "@/contexts/AuthContext"
 
 export default function EmployeeDashboard() {
